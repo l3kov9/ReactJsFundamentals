@@ -17,10 +17,9 @@ class App extends Component {
     return <div>No user found</div>
   }
 
-   tick(){
+  tick() {
     return <h3>{new Date().toLocaleTimeString()}</h3>
-   }
-   
+  }
 
   render() {
     var interval = setInterval(this.tick, 1000);
